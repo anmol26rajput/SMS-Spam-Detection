@@ -4,6 +4,7 @@ The file we are going to use contains a collection of more than 5 thousand SMS p
 
 Here I  am going to develop an SMS spam detector using **SciKit Learn's Naive Bayes classifier algorithm**. However before feeding data to Machine Learning NB algorithim, we need to process each SMS with the help of Natural Language libraries.
 
+# Summary
 Let me give you a brief idea that I am going to follow in this notebook to create the model:
 
 
@@ -25,6 +26,20 @@ Let me give you a brief idea that I am going to follow in this notebook to creat
     * Count how many times does a word occur in each message (Known as term frequency - **TF**)
     
     * Weigh the counts, so that frequent tokens get lower weight (inverse document frequency - **IDF**)
+
+# Natural Language Processing (NLP)
+
+Here the messages are in the human-readable language which computer can't understand, so we have to use the NLP to make it possible for computers to read human (natural) language SMS and determine which parts are important.
+
+So, Natural language processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret and manipulate human language.
+
+NLP makes it possible for computers to read the text, hear speech, interpret it, measure sentiment and determine which parts are important.
+
+The input and output of an NLP system can be −
+* Speech
+* Written Text
+
+Learn **basics of NLP** from [my GitHub code](https://github.com/dktalaicha/Natural-Language-Processing/blob/master/Natural-Language-Processing-Basics.ipynb). This will help to understand the jargons of NLP.
     
     * Normalize the vectors to unit length, to abstract from the original text length (L2 norm)
     
